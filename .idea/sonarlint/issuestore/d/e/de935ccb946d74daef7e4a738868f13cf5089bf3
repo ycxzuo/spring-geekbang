@@ -1,0 +1,13 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ìë¸±ûÿÿÿÿ8Š˜…ÒÜ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Íãá·şÿÿÿÿ8ŞñÙ¼Ü.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(šš¦ø8ê’×ÑÜ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§à’ÿ8ÃÅúÑÜ.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ì“Î”ÿÿÿÿÿ8’ÍµÒÜ.
+X	java:S125,"<This block of commented-out lines of code should be removed.(ÿõ”’8™ìÒÜ.
+X
+java:S1144)"6Remove this unused private "whoIsIocContainer" method.(ËÈØ‹ÿÿÿÿÿ8îâÒÜ.
+H
+java:S1172)"&Remove these unused method parameters.(ËÈØ‹ÿÿÿÿÿ8èØëÒÜ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(îà¾½8£ïõÑÜ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıÄ÷ğüÿÿÿÿ8ê’×ÑÜ.

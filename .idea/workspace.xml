@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba6bb1f8-1cea-428a-96ee-5c834668e3b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repo" />
+        <option name="mavenHome" value="D:\developtools\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\developtools\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kEptQcG3ybNYcPLkmh7yQiwWOO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-bean/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javacode\democode\test\spring-geekbang\spring-bean\src\main\resources\META-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yczuoxin.demo.bean.definition" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javacode\democode\test\spring-geekbang\spring-bean\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnnotationBeanDefinitionDemo">
+    <configuration name="AnnotationBeanDefinitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yczuoxin.demo.bean.definition.AnnotationBeanDefinitionDemo" />
+      <module name="spring-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yczuoxin.demo.bean.definition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextAsIoCContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yczuoxin.demo.container.ApplicationContextAsIoCContainer" />
+      <module name="ioc-container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yczuoxin.demo.container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanDefinitionAliasDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yczuoxin.demo.bean.definition.BeanDefinitionAliasDemo" />
+      <module name="spring-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yczuoxin.demo.bean.definition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryAsIoCContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yczuoxin.demo.container.BeanFactoryAsIoCContainer" />
+      <module name="ioc-container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yczuoxin.demo.container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yczuoxin.demo.dependency.inject.DependencyInjectDemo" />
+      <module name="ioc-container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yczuoxin.demo.dependency.inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnnotationBeanDefinitionDemo" />
+        <item itemvalue="Application.BeanDefinitionAliasDemo" />
+        <item itemvalue="Application.ApplicationContextAsIoCContainer" />
+        <item itemvalue="Application.BeanFactoryAsIoCContainer" />
+        <item itemvalue="Application.DependencyInjectDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\34372\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba6bb1f8-1cea-428a-96ee-5c834668e3b3" name="Default Changelist" comment="" />
+      <created>1605275820828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605275820828</updated>
+      <workItem from="1605275821920" duration="4154000" />
+      <workItem from="1605362778270" duration="3680000" />
+      <workItem from="1605411493796" duration="11566000" />
+      <workItem from="1605543680192" duration="679000" />
+      <workItem from="1605620295927" duration="4998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1200" y="274" key="#Project_Structure" timestamp="1605276092575">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1200" y="274" key="#Project_Structure/0.0.3440.1400@0.0.3440.1400" timestamp="1605276092575" />
+    <state x="1464" y="401" key="#com.intellij.ide.util.MemberChooser" timestamp="1605415871505">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1464" y="401" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1605415871505" />
+    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1605427415203">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1605427415203" />
+    <state width="3397" height="393" key="GridCell.Tab.0.bottom" timestamp="1605628923679">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="393" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1605628923679" />
+    <state width="3397" height="393" key="GridCell.Tab.0.center" timestamp="1605628923679">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="393" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1605628923679" />
+    <state width="3397" height="393" key="GridCell.Tab.0.left" timestamp="1605628923679">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="393" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1605628923679" />
+    <state width="3397" height="393" key="GridCell.Tab.0.right" timestamp="1605628923679">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="393" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1605628923679" />
+    <state x="1221" y="344" key="SettingsEditor" timestamp="1605441064071">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1221" y="344" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1605441064071" />
+    <state x="1450" y="459" key="extract.method.dialog" timestamp="1605277337866">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1450" y="459" key="extract.method.dialog/0.0.3440.1400@0.0.3440.1400" timestamp="1605277337866" />
+    <state x="1190" y="360" key="new project wizard" timestamp="1605543713803">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1190" y="360" key="new project wizard/0.0.3440.1400@0.0.3440.1400" timestamp="1605543713803" />
+    <state x="1376" y="330" key="run.anything.popup" timestamp="1605419816810">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1376" y="330" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1605419816810" />
+    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605625070946">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1605625070946" />
+  </component>
+</project>
