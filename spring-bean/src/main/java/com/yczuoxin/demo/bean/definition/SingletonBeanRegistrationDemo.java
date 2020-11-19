@@ -17,7 +17,7 @@ public class SingletonBeanRegistrationDemo {
 
         UserFactory userFactoryByLookup = context.getBean("userFactory", UserFactory.class);
 
-        System.out.println("userFactoryByLookup == userFactory: " + (userFactoryByLookup == userFactory));
+        System.out.println("userFactoryByLookup == userFactory: " + (userFactoryByLookup == userFactory)); // true
 
         context.close();
     }
