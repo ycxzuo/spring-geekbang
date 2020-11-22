@@ -11,5 +11,13 @@
 
     <artifactId>dependency-lookup</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.yczuoxin</groupId>
+            <artifactId>ioc-container</artifactId>
+            <version>${version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
