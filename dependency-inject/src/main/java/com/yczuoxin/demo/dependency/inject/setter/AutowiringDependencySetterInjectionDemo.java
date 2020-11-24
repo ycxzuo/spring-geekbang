@@ -1,10 +1,10 @@
-package com.yczuoxin.demo.dependency.inject;
+package com.yczuoxin.demo.dependency.inject.setter;
 
 import com.yczuoxin.demo.dependency.domain.UserHolder;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
-public class AutowiringDependencyInjectionDemo {
+public class AutowiringDependencySetterInjectionDemo {
 
     public static void main(String[] args) {
         // 创建一个 具有 BeanDefinitionRegistry 功能的 BeanFactory
