@@ -20,4 +20,11 @@ public class UserHolder {
     public void setUser(User user) {
         this.user = user;
     }
+
+    @Override
+    public String toString() {
+        return "UserHolder{" +
+                "user=" + user +
+                '}';
+    }
 }
