@@ -4,6 +4,7 @@ import com.yczuoxin.demo.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Lazy;
 
 import java.util.Collection;
 import java.util.Optional;
@@ -11,6 +12,7 @@ import java.util.Optional;
 public class AnnotationDependencyInjectionResolveDemo {
 
     @Autowired
+    @Lazy
     private User user;
 
     @Autowired
