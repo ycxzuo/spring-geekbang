@@ -6,6 +6,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Lazy;
 
+import javax.inject.Inject;
 import java.util.Collection;
 import java.util.Optional;
 
@@ -13,10 +14,16 @@ public class AnnotationDependencyInjectionResolveDemo {
 
     @Autowired
     @Lazy
+    private User lazyUser;
+
+    @Autowired
     private User user;
 
     @Autowired
     private Collection<User> users;
+
+    @Inject
+    private User injectUser;
 
     @Autowired
     private Optional<User> optionalUser;
@@ -37,9 +44,13 @@ public class AnnotationDependencyInjectionResolveDemo {
 
         AnnotationDependencyInjectionResolveDemo demo = context.getBean(AnnotationDependencyInjectionResolveDemo.class);
 
-        System.out.println(demo.user);
-        System.out.println(demo.users);
-        System.out.println(demo.optionalUser);
+        System.out.println("lazyUser: " + demo.lazyUser);
+        System.out.println("user: " + demo.user);
+        System.out.println("users: " + demo.users);
+        System.out.println("optionalUser: " + demo.optionalUser);
+        System.out.println("injectUser: " + demo.injectUser);
+
+        System.out.println("@injected == @autowired:" + (demo.user == demo.injectUser));
 
 
         // 关闭应用上下文
