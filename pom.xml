@@ -17,6 +17,8 @@
         <module>bean-scope</module>
         <module>bean-scope-web</module>
         <module>bean-lifecycle</module>
+        <module>configuration-metadata</module>
+        <module>my-test</module>
     </modules>
 
     <properties>
