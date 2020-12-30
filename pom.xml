@@ -19,6 +19,7 @@
         <module>bean-lifecycle</module>
         <module>configuration-metadata</module>
         <module>my-test</module>
+        <module>resource</module>
     </modules>
 
     <properties>
