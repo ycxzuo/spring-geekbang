@@ -20,6 +20,7 @@
         <module>configuration-metadata</module>
         <module>my-test</module>
         <module>resource</module>
+        <module>i18n</module>
     </modules>
 
     <properties>
