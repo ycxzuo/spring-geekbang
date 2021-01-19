@@ -22,6 +22,8 @@
         <module>resource</module>
         <module>i18n</module>
         <module>validation</module>
+        <module>data-binding</module>
+        <module>conversion</module>
     </modules>
 
     <properties>
@@ -89,7 +91,6 @@
     </dependencies>
 
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
