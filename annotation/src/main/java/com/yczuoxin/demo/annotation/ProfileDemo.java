@@ -15,7 +15,8 @@ public class ProfileDemo {
         // 设置默认的兜底 Profile，如果没有设置活跃的 Profile 就会以 兜底方案进行，默认是 default
         environment.setDefaultProfiles("test1");
         // 设置活跃的 Profile，会覆盖兜底的 Profile
-        environment.addActiveProfile("test2");
+        // VM 参数中 -Dspring.profiles.active=test2 也可以设置 Profile
+        //environment.addActiveProfile("test2");
 
         context.register(ProfileDemo.class);
 

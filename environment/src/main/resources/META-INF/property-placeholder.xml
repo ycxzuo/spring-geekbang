@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+<!--        &lt;!&ndash; 此处使用的不是 PropertySource，所以没有优先级的概念 &ndash;&gt;-->
+<!--        <property name="location" value="classpath:/META-INF/placeholder.properties"/>-->
+<!--        <property name="fileEncoding" value="utf-8"/>-->
+<!--    </bean>-->
+
+    <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+        <!-- 此处使用的是 PropertySource，有一个优先级的概念 -->
+        <property name="location" value="classpath:/META-INF/placeholder.properties"/>
+        <property name="fileEncoding" value="utf-8"/>
+    </bean>
+
+    <bean id="user" class="com.yczuoxin.demo.domain.User">
+        <property name="id" value="${user.id}"/>
+        <property name="name" value="${user.name}"/>
+    </bean>
+
+</beans>

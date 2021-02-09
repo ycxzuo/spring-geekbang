@@ -1,5 +1,6 @@
 package com.yczuoxin.demo.bean.definition;
 
+import com.yczuoxin.demo.bean.factory.DefaultUserFactory;
 import com.yczuoxin.demo.bean.factory.UserFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -14,8 +15,11 @@ public class BeanGarbageCollectionDemo {
 
         context.close();
 
-        Thread.sleep(5000L);
         System.gc();
-        Thread.sleep(5000L);
+        DefaultUserFactory factory = (DefaultUserFactory) defaultUserFactory;
+        while (!factory.flag) {
+            Thread.sleep(10);
+        }
+        Thread.sleep(1000);
     }
 }
